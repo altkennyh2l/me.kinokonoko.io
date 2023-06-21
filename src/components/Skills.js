@@ -1,5 +1,5 @@
 import React from "react";
 
-const Skills = () => <section id="skills">{/* Your about content */}</section>;
+const Skills = () => <section id="skills"></section>;
 
 export default Skills;

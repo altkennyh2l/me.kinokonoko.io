@@ -1,22 +1,11 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div className="container-fluid">
-        <a
-          className="navbar-brand"
-          onClick={scrollToTop}
-          style={{ cursor: "pointer" }}
-        >
-          RINGO
-        </a>
+        <a className="navbar-brand">Kenny Ha</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -35,7 +24,7 @@ const Navbar = () => {
                 className="nav-link"
                 to="about"
                 smooth={true}
-                duration={500}
+                duration={200}
               >
                 About
               </Link>
@@ -45,7 +34,7 @@ const Navbar = () => {
                 className="nav-link"
                 to="skills"
                 smooth={true}
-                duration={500}
+                duration={200}
               >
                 Skills
               </Link>
@@ -55,7 +44,7 @@ const Navbar = () => {
                 className="nav-link"
                 to="works"
                 smooth={true}
-                duration={500}
+                duration={200}
               >
                 Works
               </Link>
@@ -65,7 +54,7 @@ const Navbar = () => {
                 className="nav-link"
                 to="contact"
                 smooth={true}
-                duration={500}
+                duration={200}
               >
                 Contact
               </Link>
