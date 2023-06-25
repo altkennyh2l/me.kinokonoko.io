@@ -33,10 +33,12 @@ const App = () => {
       <Navbar />
 
       <div className="container">
-        <About />
-        <Skills />
-        <Works />
-        <Contact />
+        <div class="card" style={{ padding: "1rem" }}>
+          <About />
+          <Skills />
+          <Works />
+          <Contact />
+        </div>
       </div>
 
       <button

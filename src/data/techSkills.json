@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "item": "JaveScript",
+      "experience": "5+ years (non-work related)",
+      "note": "<ul><li>Experience with bot on platforms like Discord, Slack, Telegram and Twitter</li><li>Familiar with APIs from Twitter, OpenAI, Discord, etc.</li></ul>"
+    },
+    {
+      "item": "Unity (C#)",
+      "experience": "3+ years / 1 year (work related)",
+      "note": "<ul><li>Experience with VR related content (VRChat SDK, VRoid, VRM, Cluster SDK etc.)</li><li>Experience with Unity Editor extension</li><li>Familiar with usage of CRIWARE for Unity (ADX, Sofdec)</li></ul>"
+    },
+    {
+      "item": "Swift",
+      "experience": "2+ years (non-work related)",
+      "note": "<ul><li>Basic iOS development with SwiftUI</li></ul>"
+    }
+  ]
+}
