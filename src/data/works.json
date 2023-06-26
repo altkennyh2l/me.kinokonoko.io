@@ -52,8 +52,55 @@
       "githubRepoURL": null
     },
     {
-      "title": "InterBolt",
-      "topics": ["Unity", "C#", "OpenAI", "VOICEVOX"],
+      "title": "GBF_AutoWipeTweet",
+      "topics": ["Javascript", "Nodejs", "Twitter"],
+      "description": "GBF_AutoWipeTweet is a simple script that automatically deletes tweets related to the game Granblue Fantasy. However, this script is no longer maintained due to changes in the Twitter API and the game's design.",
+      "thumbnailImage": "/works/GBF_AutoWipeTweet.png",
+      "innerImages": null,
+      "innerImagesAlt": null,
+      "innerVideos": null,
+      "detailExplanation": "GBF_AutoWipeTweet is a simple script that was designed to automatically delete tweets specifically from the game Granblue Fantasy. However, it is no longer being maintained due to changes in both the Twitter API and the game's design. \nInitially, the script relied on fetching and detecting tweets based on the \"tweet via\" field. However, at some point, this field became unavailable. As a result, the script was modified to search for specific content formats instead. \nThe purpose of this script was to ensure that tweets related to Granblue Fantasy were only visible on Twitter for a short period of time (approximately 30 seconds) in order to allow the raid finder to capture them. This approach aimed to keep the user's timeline clean and focused. \nPlease note that due to the changes in the Twitter API and game design, this script may no longer function as intended.",
+      "libraryUsed": ["node-fetch", "twit"],
+      "githubRepoURL": "https://github.com/altkennyh2l/GBF_AutoWipeTweet"
+    },
+    {
+      "title": "UniSupport",
+      "topics": ["Swift", "SwiftUI"],
+      "description": "UniSupport is an iOS application that allows users to search for and view song and chart information for the rhythm game Chunithm. It's a handy tool for choosing songs within the limited in-game time.",
+      "thumbnailImage": "/works/interBoltThumbnail.png",
+      "innerImages": null,
+      "innerImagesAlt": null,
+      "innerVideos": null,
+      "detailExplanation": "This is my first Swift app from scratch. As a fan of the game Chunithm, I always wondered if I could check the song difficulties and detailed information in a more convenient way. Since the time for song selection is limited (defaulting to 60 seconds), it would be great to have an app that allows me to search with just a few taps. Additionally, the app would provide personalized information, allowing players to track their progress and choose songs that match their skill level or are suitable for improving. The data is collected via my nodejs tool PenguinDelivery. Note: UniSupport is NOT associated with SEGA, developers of Chunithm, developers of ChuniRec (and UniDB) and do not encourage the misuse of data. All bundled data is from public sources.",
+      "libraryUsed": ["(none)"],
+      "githubRepoURL": null
+    },
+    {
+      "title": "PenguinDelivery",
+      "topics": ["Express", "Nodejs"],
+      "description": "PenguinDelivery is an Express Node.js application that gathers songs and chart information from UniDB (the unofficial Chunithm database) as well as the official Chunithm homepage. The application also packages and updates the data bundle.",
+      "thumbnailImage": "/works/interBoltThumbnail.png",
+      "innerImages": null,
+      "innerImagesAlt": [
+        "Section settings screen",
+        "Chat section screen",
+        "Lipsyncing is also available for the avatar"
+      ],
+      "innerVideos": "/works/InterBolt.mp4",
+      "detailExplanation": "PenguinDelivery is an Express Node.js application that gathers songs and chart information from UniDB (the unofficial Chunithm database) as well as the official Chunithm homepage. The data includes song information, chart difficulties, and level constants. Originally, it was another script called ChuniData that I wrote, but it has now been organized into an Express server with self-updating and bundle-serving functionality. The application also handles packaging and updating the data bundle. Note: PenguinDelivery is NOT associated with SEGA, developers of Chunithm, developers of ChuniRec (and UniDB) and do not encourage the misuse of data. All bundled data is from public sources.",
+      "libraryUsed": [
+        "hecomi/uLipSync",
+        "Cysharp/UniTask",
+        "mikito/unity-voicevox-bridge",
+        "lilxyzw/lilToon",
+        "VOICEVOX/voicevox_engine",
+        "Avatar shown in demo: Mishe by @ponderogen"
+      ],
+      "githubRepoURL": null
+    },
+    {
+      "title": "me.kinokonoko.io",
+      "topics": ["Nodejs", "React"],
       "description": "InterBolt is an iOS application that enhances the chatting experience with ChatGPT by implementing text-to-speech (TTS) and speech-to-text (STT) functionalities, along with an avatar feature.",
       "thumbnailImage": "/works/interBoltThumbnail.png",
       "innerImages": null,
