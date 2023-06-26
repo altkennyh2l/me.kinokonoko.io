@@ -50,6 +50,29 @@
         "Avatar shown in demo: Mishe by @ponderogen"
       ],
       "githubRepoURL": null
+    },
+    {
+      "title": "InterBolt",
+      "topics": ["Unity", "C#", "OpenAI", "VOICEVOX"],
+      "description": "InterBolt is an iOS application that enhances the chatting experience with ChatGPT by implementing text-to-speech (TTS) and speech-to-text (STT) functionalities, along with an avatar feature.",
+      "thumbnailImage": "/works/interBoltThumbnail.png",
+      "innerImages": null,
+      "innerImagesAlt": [
+        "Section settings screen",
+        "Chat section screen",
+        "Lipsyncing is also available for the avatar"
+      ],
+      "innerVideos": "/works/InterBolt.mp4",
+      "detailExplanation": "InterBolt is an iOS application that enhances the chatting experience with ChatGPT by implementing text-to-speech (TTS) and speech-to-text (STT) functionalities, along with an avatar feature. It utilizes a custom OpenAI API wrapper to leverage the Chat completion API and Whisper for a seamless chatting experience. Additionally, the application employs the VOICEVOX engine to generate TTS responses for users. To enhance the avatar's visual appeal, facial lip syncing animation is implemented using uLipSync. However, due to the nature of TTS, lipsyncing is not as natural as regular human vocal. Improving lipsync accuracy is a goal for future updates and further development of InterBolt. *Note: Please be aware that the VOICEVOX Engine used in this demo video is hosted on a personal server with low specifications specifically for AI-related tasks. As a result, the TTS response time may be relatively longer compared to optimized server setups.",
+      "libraryUsed": [
+        "hecomi/uLipSync",
+        "Cysharp/UniTask",
+        "mikito/unity-voicevox-bridge",
+        "lilxyzw/lilToon",
+        "VOICEVOX/voicevox_engine",
+        "Avatar shown in demo: Mishe by @ponderogen"
+      ],
+      "githubRepoURL": null
     }
   ]
 }

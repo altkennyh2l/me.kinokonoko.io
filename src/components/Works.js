@@ -49,38 +49,44 @@ const Work = ({ item }) => {
           <Modal.Title>{item.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Carousel
-            activeIndex={activeIndex}
-            onSelect={handleSelect}
-            interval={null}
-          >
-            {item.innerVideos && (
-              <Carousel.Item>
-                <video class="carousel-vid-custom" controls>
-                  <source src={item.innerVideos} type="video/mp4" />
-                </video>
-              </Carousel.Item>
-            )}
-            {item.innerImages.map((img, index) => (
-              <Carousel.Item key={index}>
-                <img
-                  className="d-block w-100"
-                  src={img}
-                  alt={`slide ${index}`}
-                />
-              </Carousel.Item>
-            ))}
-          </Carousel>
-          {item.innerVideos ? (
-            activeIndex === 0 ? (
-              <p className></p>
-            ) : (
-              <div class="bd-callout bd-callout-info">
-                <p>{item.innerImagesAlt[activeIndex - 1]}</p>
-              </div>
-            )
-          ) : (
-            <p>{item.innerImagesAlt[activeIndex]}</p>
+          {item.innerImages && (
+            <Carousel
+              activeIndex={activeIndex}
+              onSelect={handleSelect}
+              interval={null}
+            >
+              {item.innerVideos && (
+                <Carousel.Item>
+                  <video class="carousel-vid-custom" controls>
+                    <source src={item.innerVideos} type="video/mp4" />
+                  </video>
+                </Carousel.Item>
+              )}
+              {item.innerImages.map((img, index) => (
+                <Carousel.Item key={index}>
+                  <img
+                    className="d-block w-100"
+                    src={img}
+                    alt={`slide ${index}`}
+                  />
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          )}
+          {item.innerImages && (
+            <>
+              {item.innerVideos ? (
+                activeIndex === 0 ? (
+                  <p className></p>
+                ) : (
+                  <div class="bd-callout bd-callout-info">
+                    <p>{item.innerImagesAlt[activeIndex - 1]}</p>
+                  </div>
+                )
+              ) : (
+                <p>{item.innerImagesAlt[activeIndex]}</p>
+              )}
+            </>
           )}
           <h3>About {item.title}</h3>
           <p>{item.detailExplanation}</p>
