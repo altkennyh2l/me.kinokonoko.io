@@ -4,6 +4,7 @@ import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   const mybutton = useRef(null); // create a reference to the button
@@ -33,12 +34,11 @@ const App = () => {
       <Navbar />
 
       <div className="container">
-        <div class="card" style={{ padding: "1rem" }}>
-          <About />
-          <Skills />
-          <Works />
-          <Contact />
-        </div>
+        <About />
+        <Skills />
+        <Works />
+        <Contact />
+        <Footer />
       </div>
 
       <button
