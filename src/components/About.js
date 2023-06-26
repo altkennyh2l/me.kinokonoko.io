@@ -26,7 +26,7 @@ const OccupationDisplay = ({ data }) => {
 
 const About = () => (
   <section id="about">
-    <div class="container">
+    <div class="container pt-3">
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <img

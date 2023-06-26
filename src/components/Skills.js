@@ -71,7 +71,7 @@ const TechSkills = ({ data }) => (
 );
 
 const Skills = () => (
-  <section id="skills" style={{ paddingTop: "50px" }}>
+  <section id="skills">
     <div className="container">
       <h3 className="text-center" style={{ paddingBottom: "10px" }}>
         Skills
