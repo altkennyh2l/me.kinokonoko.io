@@ -7,7 +7,7 @@ const About = () => (
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <img
-              src="https://avatars.githubusercontent.com/u/77214322?v=4"
+              src="/PFP.jpeg"
               class="rounded-circle mx-auto d-block img-fluid"
               alt="..."
               style={{ width: "50%" }}

@@ -4,6 +4,7 @@ import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   const mybutton = useRef(null); // create a reference to the button
@@ -37,6 +38,7 @@ const App = () => {
         <Skills />
         <Works />
         <Contact />
+        <Footer />
       </div>
 
       <button
