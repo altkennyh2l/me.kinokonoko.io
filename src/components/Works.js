@@ -65,7 +65,7 @@ const Work = ({ item }) => {
               {item.innerImages.map((img, index) => (
                 <Carousel.Item key={index}>
                   <img
-                    className="d-block w-100"
+                    className="d-block mx-auto carousel-img-custom"
                     src={img}
                     alt={`slide ${index}`}
                   />

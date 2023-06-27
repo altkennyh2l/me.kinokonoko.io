@@ -67,9 +67,21 @@
       "title": "UniSupport",
       "topics": ["Swift", "SwiftUI"],
       "description": "UniSupport is an iOS application that allows users to search for and view song and chart information for the rhythm game Chunithm. It's a handy tool for choosing songs within the limited in-game time.",
-      "thumbnailImage": "/works/interBoltThumbnail.png",
-      "innerImages": null,
-      "innerImagesAlt": null,
+      "thumbnailImage": "/works/UniSupportThumbnail.PNG",
+      "innerImages": [
+        "/works/UniSupport1.PNG",
+        "/works/UniSupport2.PNG",
+        "/works/UniSupport3.PNG",
+        "/works/UniSupport4.PNG",
+        "/works/UniSupport5.PNG"
+      ],
+      "innerImagesAlt": [
+        "Main song list view",
+        "Search functions",
+        "Filter by chart variables",
+        "Filter by genre",
+        "Song detail view"
+      ],
       "innerVideos": null,
       "detailExplanation": "This is my first Swift app from scratch. As a fan of the game Chunithm, I always wondered if I could check the song difficulties and detailed information in a more convenient way. Since the time for song selection is limited (defaulting to 60 seconds), it would be great to have an app that allows me to search with just a few taps. Additionally, the app would provide personalized information, allowing players to track their progress and choose songs that match their skill level or are suitable for improving. The data is collected via my nodejs tool PenguinDelivery. Note: UniSupport is NOT associated with SEGA, developers of Chunithm, developers of ChuniRec (and UniDB) and do not encourage the misuse of data. All bundled data is from public sources.",
       "libraryUsed": ["(none)"],
@@ -79,47 +91,29 @@
       "title": "PenguinDelivery",
       "topics": ["Express", "Nodejs"],
       "description": "PenguinDelivery is an Express Node.js application that gathers songs and chart information from UniDB (the unofficial Chunithm database) as well as the official Chunithm homepage. The application also packages and updates the data bundle.",
-      "thumbnailImage": "/works/interBoltThumbnail.png",
+      "thumbnailImage": "/works/PenguinDelivery.png",
       "innerImages": null,
       "innerImagesAlt": [
         "Section settings screen",
         "Chat section screen",
         "Lipsyncing is also available for the avatar"
       ],
-      "innerVideos": "/works/InterBolt.mp4",
+      "innerVideos": null,
       "detailExplanation": "PenguinDelivery is an Express Node.js application that gathers songs and chart information from UniDB (the unofficial Chunithm database) as well as the official Chunithm homepage. The data includes song information, chart difficulties, and level constants. Originally, it was another script called ChuniData that I wrote, but it has now been organized into an Express server with self-updating and bundle-serving functionality. The application also handles packaging and updating the data bundle. Note: PenguinDelivery is NOT associated with SEGA, developers of Chunithm, developers of ChuniRec (and UniDB) and do not encourage the misuse of data. All bundled data is from public sources.",
-      "libraryUsed": [
-        "hecomi/uLipSync",
-        "Cysharp/UniTask",
-        "mikito/unity-voicevox-bridge",
-        "lilxyzw/lilToon",
-        "VOICEVOX/voicevox_engine",
-        "Avatar shown in demo: Mishe by @ponderogen"
-      ],
-      "githubRepoURL": null
+      "libraryUsed": ["archiver", "express"],
+      "githubRepoURL": "https://github.com/altkennyh2l/PenguinDelivery"
     },
     {
       "title": "me.kinokonoko.io",
       "topics": ["Nodejs", "React"],
-      "description": "InterBolt is an iOS application that enhances the chatting experience with ChatGPT by implementing text-to-speech (TTS) and speech-to-text (STT) functionalities, along with an avatar feature.",
-      "thumbnailImage": "/works/interBoltThumbnail.png",
+      "description": "This page that you are looking at.",
+      "thumbnailImage": "/works/meKinokonokoIo.png",
       "innerImages": null,
-      "innerImagesAlt": [
-        "Section settings screen",
-        "Chat section screen",
-        "Lipsyncing is also available for the avatar"
-      ],
-      "innerVideos": "/works/InterBolt.mp4",
-      "detailExplanation": "InterBolt is an iOS application that enhances the chatting experience with ChatGPT by implementing text-to-speech (TTS) and speech-to-text (STT) functionalities, along with an avatar feature. It utilizes a custom OpenAI API wrapper to leverage the Chat completion API and Whisper for a seamless chatting experience. Additionally, the application employs the VOICEVOX engine to generate TTS responses for users. To enhance the avatar's visual appeal, facial lip syncing animation is implemented using uLipSync. However, due to the nature of TTS, lipsyncing is not as natural as regular human vocal. Improving lipsync accuracy is a goal for future updates and further development of InterBolt. *Note: Please be aware that the VOICEVOX Engine used in this demo video is hosted on a personal server with low specifications specifically for AI-related tasks. As a result, the TTS response time may be relatively longer compared to optimized server setups.",
-      "libraryUsed": [
-        "hecomi/uLipSync",
-        "Cysharp/UniTask",
-        "mikito/unity-voicevox-bridge",
-        "lilxyzw/lilToon",
-        "VOICEVOX/voicevox_engine",
-        "Avatar shown in demo: Mishe by @ponderogen"
-      ],
-      "githubRepoURL": null
+      "innerImagesAlt": null,
+      "innerVideos": null,
+      "detailExplanation": "This page that you are looking at. It is a React application that is hosted on Github Page. The page is designed to be responsive and mobile-friendly. Also, my first attamp at using React.",
+      "libraryUsed": ["React", "Bootstrap", "Webpack"],
+      "githubRepoURL": "https://github.com/altkennyh2l/me.kinokonoko.io"
     }
   ]
 }
