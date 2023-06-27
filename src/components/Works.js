@@ -80,7 +80,9 @@ const Work = ({ item }) => {
                   <p className></p>
                 ) : (
                   <div class="bd-callout bd-callout-info">
-                    <p>{item.innerImagesAlt[activeIndex - 1]}</p>
+                    <div class="bd-callout bd-callout-info">
+                      <p>{item.innerImagesAlt[activeIndex - 1]}</p>
+                    </div>
                   </div>
                 )
               ) : (
